@@ -1,0 +1,35 @@
+@import './variables';
+
+.management {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    &__header, h2, &__dates__infos {
+        text-align: center;
+    }
+
+    &__dates__infos {
+        margin-top: 2rem;
+
+        &--subtitle {
+            color: $color-green
+        }
+
+        &--date {
+            color: $color-purple;
+            font-weight: $font-700;
+            text-decoration: underline #7D387D;
+        }
+
+        &--division {
+            width: 10%;
+        }
+
+        &--lunch {
+            font-weight: 700;
+            color: $color-purple;
+        }
+    }
+}
